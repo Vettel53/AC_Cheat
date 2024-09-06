@@ -11,5 +11,5 @@ In the program, the games **processID** and **ModuleBaseAddress** is obtained us
   > Windows OS <br/> C Compiler <br/> AssaultCube
 
 ## Credit:
-  > [How To Write Your First Game Hack in C++ Tutorial - kxbra](https://www.youtube.com/watch?v=GwP6QZDIfyg&list=LL&index=1) <br/>
-  > [From coding to hacking: An introduction guide to practical (external) game hacking - harakirinox](https://www.unknowncheats.me/forum/programming-for-beginners/267073-coding-hacking-introduction-guide-practical-external-game-hacking.html)
+  > [Reverse Engineer Assault Cube / GetProcessId / GetModuleBaseAddress Help](https://www.youtube.com/watch?v=GwP6QZDIfyg&list=LL&index=1) <br/>
+  > [Read / Write / Windows API Help](https://www.unknowncheats.me/forum/programming-for-beginners/267073-coding-hacking-introduction-guide-practical-external-game-hacking.html)
