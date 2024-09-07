@@ -2,22 +2,22 @@
 #include <windows.h>
 #include "includes.h"
 
-int write(HANDLE hProcess, LPVOID lpBaseAddress, int lpBuffer, int nSize) { // WriteProcess
+// int write(HANDLE hProcess, LPVOID lpBaseAddress, int lpBuffer, int nSize) { // WriteProcess
 
-    int overWrite = 0;
+//     int overWrite = 0;
 
-    printf("\nEnter the value you would like to write:");
-    scanf("%d", &overWrite);
+//     printf("\nEnter the value you would like to write:");
+//     scanf("%d", &overWrite);
 
-    BOOL writeInt = WriteProcessMemory(hProcess, (LPVOID) lpBaseAddress, &overWrite, nSize, NULL);
+//     BOOL writeInt = WriteProcessMemory(hProcess, (LPVOID) lpBaseAddress, &overWrite, nSize, NULL);
 
-    if (!writeInt) {
-        printf("WriteProcessMemory failed. GetLastError() - %lu \n", GetLastError());
-        CloseHandle(hProcess);
-    } else {
-        printf("WriteProcessMemory success - Written value: %d", overWrite);
-    }
-}
+//     if (!writeInt) {
+//         printf("WriteProcessMemory failed. GetLastError() - %lu \n", GetLastError());
+//         CloseHandle(hProcess);
+//     } else {
+//         printf("WriteProcessMemory success - Written value: %d", overWrite);
+//     }
+// }
 
 int main() {
 
